@@ -12,4 +12,4 @@ public interface StudentService {
     Optional<Student> getOneStudent(Long id);
     void deleteStudent(Long id);
 
-}
+} 
