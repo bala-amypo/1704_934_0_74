@@ -9,7 +9,7 @@ import com.example.demo.service.StudentService;
 @Service
 public class StudentService implements StudentService{
     @Autowired
-    StudentRepo stRepo;
+    StudentRepo StudentRepo;
 
     @Override
    public Student insertStudent(Student st){
@@ -29,7 +29,4 @@ public class StudentService implements StudentService{
     public void deleteStudent(Long id) {
         studentRepo.deleteById(id);
     }
-}
-   }
-
 }
