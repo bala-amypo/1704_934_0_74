@@ -12,5 +12,10 @@ public class StudentService implements StudentService{
     StudentRepo stRepo;
 
     @Override
-    
+   public Student insertStudent(Student st){
+    return StudentRepo.save(st);
+   }
+   @Override
+
+   
 }
